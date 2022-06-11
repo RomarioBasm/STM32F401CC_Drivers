@@ -1,0 +1,19 @@
+#ifndef _NVIC_CFG_H_
+#define _NVIC_CFG_H_
+
+
+/*
+ * OPTIONS :
+ *         NVIC_PRIORITY_BITS_1
+ *         NVIC_PRIORITY_BITS_2
+ *         NVIC_PRIORITY_BITS_3
+ *         NVIC_PRIORITY_BITS_4
+ *         NVIC_PRIORITY_BITS_5
+ *         NVIC_PRIORITY_BITS_6
+ *         NVIC_PRIORITY_BITS_7
+ *         NVIC_PRIORITY_BITS_8
+ */
+#define NVIC_PRIORITY_BITS  NVIC_PRIORITY_BITS_4
+
+#define NVIC_INTERRUPTSNUMBER 240
+#endif
